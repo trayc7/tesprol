@@ -97,12 +97,12 @@ defaults:
     layout: "page"
 
 # The following settings are NECESSARY for the Prologue theme to run:
-# theme: jekyll-theme-advanced-prologue
-# collections:
-#   sections:
-#     output: true
-#   others:
-#     output: false
+theme: jekyll-theme-advanced-prologue
+collections:
+  sections:
+    output: true
+  others:
+    output: false
 
 theme-options:
   #text to show in the read me links after exerpts
