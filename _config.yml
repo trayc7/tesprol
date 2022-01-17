@@ -97,7 +97,7 @@ defaults:
     layout: "page"
 
 # The following settings are NECESSARY for the Prologue theme to run:
-theme: jekyll-theme-advanced-prologue
+remote_theme: jekyll-theme-advanced-prologue
 collections:
   sections:
     output: true
