@@ -100,7 +100,7 @@ defaults:
 remote_theme: jekyll-theme-advanced-prologue
 collections:
   sections:
-    output: true
+    output: false
   others:
     output: false
 
