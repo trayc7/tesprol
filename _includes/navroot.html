@@ -25,7 +25,7 @@
             <span class="{{ _class }} {{ _icon }}">{{- _title -}}</span>
           </a></li>
         {%- elsif _page.url -%}
-          <li><a href="{{- _page.url -}}" id="{{- _slug -}}-link">
+          <li><a href="{{ site.baseurl }}{{- _page.url -}}" id="{{- _slug -}}-link">
             <span class="{{ _class }} {{ _icon }}">{{- _title -}}</span>
           </a></li>
         {%- else -%}
